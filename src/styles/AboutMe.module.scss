@@ -35,7 +35,8 @@
     position: absolute;
     right: 80%;
     @include phone {
-      right: 0%;
+      margin: 12px auto;
+      flex-direction: column;
     }
   }
   &2 {
@@ -59,7 +60,8 @@
     position: absolute;
     right: 55%;
     @include phone {
-      right: 0%;
+      margin: 12px auto;
+      flex-direction: column;
     }
   }
   &3 {
@@ -84,7 +86,8 @@
     right: 30%;
     
     @include phone {
-      right: 0%;
+      margin: 12px auto;
+      flex-direction: column;
     }
   }
 }
@@ -124,7 +127,7 @@
   }
   @include phone {
     letter-spacing: -1px;
-    font-size: calc(15rem / 16);
+    font-size: calc(10rem / 16);
   }
   @include tablet {
     letter-spacing: 0;
