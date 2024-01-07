@@ -111,6 +111,13 @@
   font-family: "Poppins Bold", "Segoe UI";
   font-weight: bold;
   margin: 0;
+  @include phone {
+    letter-spacing: -1px;
+    font-size: calc(26rem / 16);
+  }
+  @include tablet {
+    letter-spacing: 0;
+  }
 }
 
 .text_container {
