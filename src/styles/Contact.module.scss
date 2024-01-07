@@ -88,16 +88,3 @@
     transform: translateY(-0.75rem);
   }
 }
-
-.resume {
-  width: 45%;
-  height: calc(520rem / 16);
-  @include phone {
-    width: auto;
-    height: calc(420rem / 16);
-  }
-  @include tablet {
-    width: 90%;
-    height: calc(480rem / 16);
-  }
-}
