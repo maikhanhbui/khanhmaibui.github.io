@@ -1,0 +1,55 @@
+@import "./constants.scss";
+
+.content {
+  width: 90%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: "Lato", "Segoe UI";
+  > * {
+    margin-bottom: 1.125rem;
+  }
+  @include phone {
+    padding: 0;
+    width: 95%;
+  }
+  @include tablet {
+    padding: 0;
+    width: 95%;
+  }
+  @include desktop {
+    width: 75%;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  white-space: pre-wrap;
+  > * {
+    margin: 0;
+  }
+  @include phone {
+    flex-direction: column;
+    white-space: normal;
+    font-size: calc(12rem / 16);
+  }
+  @include tablet {
+    flex-direction: column;
+    white-space: normal;
+  }
+}
+
+.company {
+  font-weight: normal;
+}
+
+.desc {
+  @include phone {
+    font-size: calc(12rem / 16);
+    > ul {
+      padding-left: 1.3rem;
+    }
+  }
+}

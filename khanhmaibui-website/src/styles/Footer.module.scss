@@ -1,0 +1,21 @@
+@import "./constants.scss";
+
+.container {
+  background: rgb(212, 211, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+  line-height: 0.5;
+  text-decoration: none;
+  color: black;
+}
+
+.last_updated {
+    display: block;
+    justify-content: center;
+    padding: 1rem 0;
+    line-height: 0.5;
+  }
+

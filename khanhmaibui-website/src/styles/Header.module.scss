@@ -1,0 +1,21 @@
+@import "./constants.scss";
+
+.container {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.header {
+  z-index: $top-level;
+  font-family: "Poppins Medium", "Segoe UI";
+  font-size: calc(40rem / 16);
+  margin: 0.5rem 0.2rem;
+}
+
+.highlight {
+  position: absolute;
+  z-index: $bot-level;
+  opacity: 0.9;
+  bottom: calc(12rem / 16);
+  left: 0;
+}
