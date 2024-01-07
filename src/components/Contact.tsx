@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "./Header";
 import LinkedIn from "../public/svg/linkedinLogo.png";
 import Email from "../public/svg/emailLogo.png";
 import Github from "../public/svg/githubLogo2.png";
