@@ -115,6 +115,7 @@
   font-weight: bold;
   margin: 0;
   @include phone {
+    padding-top: 0px;
     letter-spacing: -1px;
     font-size: calc(32rem / 16);
   }
