@@ -35,6 +35,7 @@
     position: absolute;
     right: 80%;
     @include phone {
+      position: static;
       margin: 12px auto;
       flex-direction: column;
     }
@@ -60,6 +61,7 @@
     position: absolute;
     right: 55%;
     @include phone {
+      position: static;
       margin: 12px auto;
       flex-direction: column;
     }
@@ -86,6 +88,7 @@
     right: 30%;
     
     @include phone {
+      position: static;
       margin: 12px auto;
       flex-direction: column;
     }
