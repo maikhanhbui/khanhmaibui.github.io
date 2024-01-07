@@ -137,7 +137,7 @@
   }
   @include phone {
     letter-spacing: -1px;
-    padding-right: 100px;
+    padding-right: 0px;
     font-size: calc(15rem / 16);
   }
   @include tablet {
