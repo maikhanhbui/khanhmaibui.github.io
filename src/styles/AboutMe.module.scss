@@ -33,7 +33,7 @@
     flex-direction: row;
     align-self: center;
     position: absolute;
-    right: 80%;
+    right: 75%;
     @include phone {
       position: static;
       margin: 12px auto;
@@ -59,7 +59,7 @@
     align-items: center;
     flex-direction: row;
     position: absolute;
-    right: 55%;
+    right: 45%;
     @include phone {
       position: static;
       margin: 12px auto;
@@ -85,7 +85,7 @@
     align-items: center;
     flex-direction: row;
     position: absolute;
-    right: 30%;
+    right: 15%;
     
     @include phone {
       position: static;
@@ -129,7 +129,7 @@
   flex-direction: row;
   font-family: "Poppins", "Segoe UI";
   font-size: calc(26rem / 16);
-  padding-right: 350px;
+  padding-right: 0px;
   text-align: left;
   letter-spacing: 1px;
   padding-bottom: 55px;
