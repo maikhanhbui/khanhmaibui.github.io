@@ -37,7 +37,7 @@ const colors = {
           </li>
         </ul>),
       logo: insightLogo,
-      bgColor: colors.sambuca,
+      bgColor: colors.gold,
     },
     {
       role: "Data Analyst",
@@ -85,6 +85,6 @@ const colors = {
         </ul>
       ),
       logo: rakunaLogo,
-      bgColor: colors.sambuca,
+      bgColor: colors.gold,
     },
   ];

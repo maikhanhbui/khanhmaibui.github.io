@@ -43,7 +43,7 @@ const colors = {
         </p>
       ),
       github: "https://github.com/khanhmaibui/thiefescape",
-      color: colors.sambuca,
+      color: colors.gold,
       logo: <img src="javaLogo.png" alt=""/>,
       githubLogo: <a href="https://github.com/khanhmaibui/thiefescape" target="_blank" rel="noopener noreferrer"> <img
       src="githubLogo.png"
