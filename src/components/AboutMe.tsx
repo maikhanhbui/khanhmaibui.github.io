@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className = {styles.text_container}>
         <h2> 👩‍💻 I'm a current Computer Science and Business student at Simon Fraser University! 
           <br></br>
-          🧮 I love mathematics! I'm constantly amazed by the endless opportunities for learning and exploration it offers.
+          🧮 I love Mathematics! I'm constantly amazed by the endless opportunities for learning and exploration it offers.
           <br></br>
           🧑‍🍳 Cooking is my go-to method for relaxation and stress relief.
           <br></br>
