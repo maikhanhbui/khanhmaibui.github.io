@@ -45,7 +45,7 @@ const TextLoop = () => {
           <h2 style={{ color: color }} className={styles.message}>
             {message}
           </h2>
-          <Typist.Backspace count={message.length+1} delay={700} />
+          <Typist.Backspace count={message.length+1} delay={1500} />
         </Typist>
       ) : (
         <h2 className={color}>{message}</h2>
