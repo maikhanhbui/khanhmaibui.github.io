@@ -11,7 +11,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins", "Segoe UI";
-  background-color: #ffffff;
+  background-color: #ffff;
   background-repeat: no-repeat;
   color: black;
 }
@@ -65,11 +65,11 @@ section {
 }
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.1);
+  background: #f9f8f82d;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(255, 254, 254, 0.25);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.4);

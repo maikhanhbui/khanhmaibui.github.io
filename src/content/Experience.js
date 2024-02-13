@@ -1,9 +1,12 @@
 const colors = {
-    "pink": "#FBA1D4", 
+    "pink": "#FED4E7",
     "purple": "#E2B4FF", 
-    "green": "#ADE989", 
+    "green": "#c1eaa7", 
     "yellow": "#FFE595",
-    "blue": "#b4cdff",
+    "blue": "#363538",
+    "one": "#132e35",
+    "two":"#2d4a53",
+    "three":"#69818d",
   }
   
   // LOGOS
@@ -40,7 +43,7 @@ const colors = {
           </li>
         </ul>),
       logo: insightLogo,
-      bgColor: colors.green,
+      bgColor: colors.three,
     },
     {
       role: "Data Analyst",
@@ -62,7 +65,7 @@ const colors = {
         </ul>
       ),
       logo: sfuLogo,
-      bgColor: colors.purple,
+      bgColor: colors.three,
     },
     {
       role: "Software Engineer Intern",
@@ -88,6 +91,6 @@ const colors = {
         </ul>
       ),
       logo: rakunaLogo,
-      bgColor: colors.yellow,
+      bgColor: colors.three,
     },
   ];

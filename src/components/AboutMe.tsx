@@ -58,19 +58,19 @@ const TextLoop = () => {
 export default function AboutMe() {
   return (
     <section id = "about_me">
-      <div>
+      <div className={styles.button}>
         <a href='#experience' className = {styles.button_container1}>
           <h1> Experience </h1>
         </a>
       </div> 
 
-      <div>
+      <div className={styles.button}>
         <a href='#projects' className = {styles.button_container2}>
           <h1> Projects </h1>
         </a>
       </div>
 
-      <div>
+      <div className={styles.button}>
       <a href='#contact_me' className = {styles.button_container3}>
         <h1> Contact </h1>
       </a>

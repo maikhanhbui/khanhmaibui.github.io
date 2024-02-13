@@ -8,7 +8,7 @@ import styles from "../styles/Contact.module.scss";
 export default function Contact() {
   return (
     <section id="contact_me" className={styles.contact}>
-      <Header title="Contact" color="#8bb0f8" />
+      <Header title="Contact" color="#69818d" />
       <div className={styles.content}>
         <div className={styles.social_container}>
           <h1 className={styles.header}>Let's connect!</h1>
