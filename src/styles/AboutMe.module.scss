@@ -145,9 +145,6 @@
 
 .message {
   margin: 0;
-  @include phone {
-    margin-left: 0.5rem;
-  }
 }
 
 .i {
