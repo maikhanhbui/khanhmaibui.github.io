@@ -6,10 +6,10 @@ import "../styles/globals.scss";
 
 const TextLoop = () => {
   const messages = [
-    " am a software engineer.",
-    " love Mathematics.",
-    " enjoy cooking.",
-    " am happy you are here!",
+    "am a software engineer.",
+    "love Mathematics.",
+    "enjoy cooking.",
+    "am happy you are here!",
   ];
 
   const colors = ["#FBA1D4", "#E2B4FF", "#ADE989", "#FFE595"];
