@@ -136,7 +136,7 @@
   @include phone {
     padding-top: 60px;
     letter-spacing: -1px;
-    font-size: calc(32rem / 16);
+    font-size: calc(28rem / 16);
   }
   @include tablet {
     letter-spacing: 0;
@@ -163,7 +163,7 @@
   @include phone {
     padding-top: 60px;
     letter-spacing: -1px;
-    font-size: calc(32rem / 16);
+    font-size: calc(16rem / 16);
   }
   @include tablet {
     letter-spacing: 0;
