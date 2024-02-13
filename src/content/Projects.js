@@ -1,6 +1,9 @@
 const colors = {
-    "sambuca": "#370f0f",
-    "gold": "#B79855",
+    "pink": "#FBA1D4", 
+    "purple": "#E2B4FF", 
+    "green": "#ADE989", 
+    "yellow": "#FFE595",
+    "blue": "#b4cdff",
 };
   
   export const projects = [
@@ -18,7 +21,7 @@ const colors = {
         </p>
       ),
       github: "https://github.com/khanhmaibui/Studdi-Buddi-Finder",
-      color: colors.gold,
+      color: colors.pink,
       logo: <img src="androidLogo.png" alt=""/>,
       githubLogo: <a href="https://github.com/khanhmaibui/Studdi-Buddi-Finder" target="_blank" rel="noopener noreferrer"> <img
       src="githubLogo.png"
@@ -43,7 +46,7 @@ const colors = {
         </p>
       ),
       github: "https://github.com/khanhmaibui/thiefescape",
-      color: colors.gold,
+      color: colors.blue,
       logo: <img src="javaLogo.png" alt=""/>,
       githubLogo: <a href="https://github.com/khanhmaibui/thiefescape" target="_blank" rel="noopener noreferrer"> <img
       src="githubLogo.png"
@@ -67,7 +70,7 @@ const colors = {
           </p>
         ),
         github: "https://github.com/khanhmaibui/thiefescape",
-        color: colors.gold,
+        color: colors.green,
         logo: <img src="pythonLogo.png" alt=""/>,
         githubLogo: <a href="https://github.com/klocquiao/Trivia-Game" target="_blank" rel="noopener noreferrer"> <img
         src="githubLogo.png"

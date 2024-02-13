@@ -11,7 +11,7 @@ import styles from "../styles/Experience.module.scss";
 export default function Experience() {
   return (
     <section id="experience" className={styles.experience}>
-      <Header title="Experience" color="#efefef" />
+      <Header title="Experience" color="#FBA1D4" />
       <div className={styles.content}>
         <VerticalTimeline animate={true} layout="1-column">
           {experience.map((exp) => {
@@ -19,7 +19,7 @@ export default function Experience() {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  borderTop: "10px solid " + exp.bgColor,
+                  border: "6px solid " + exp.bgColor,
                 }}
                 position="left"
                 icon={exp.logo}

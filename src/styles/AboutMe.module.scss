@@ -18,10 +18,10 @@
     height: 50px;
     line-height: 15px;
     margin: 12px auto;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #B79855;
+    background-color: #FBA1D4;
     color: white;
     transition: 0.2s all;
     text-align: center;
@@ -45,10 +45,10 @@
     height: 50px;
     line-height: 15px;
     margin: 12px auto;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #B79855;
+    background-color: #ADE989;
     color: white;
     transition: 0.2s all;
     text-align: center;
@@ -71,10 +71,10 @@
     height: 50px;
     line-height: 15px;
     margin: 12px auto;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #B79855;
+    background-color: #b4cdff;
     color: white;
     transition: 0.2s all;
     text-align: center;
@@ -97,23 +97,60 @@
 
 
 .button_container1:hover {
-  background-color: #370f0f;
+  background-color: #f780c3;
 }
 
 .button_container2:hover {
-  background-color: #370f0f;
+  background-color: #95e463;
 }
 
 .button_container3:hover {
-  background-color: #370f0f;
+  background-color: #8bb0f8;
 }
 
 .hello {
-  padding-top: 120px;
+  padding-top: 100px;
   font-size: calc(76rem / 16);
   font-family: "Poppins Bold", "Segoe UI";
   font-weight: bold;
   margin: 0;
+  @include phone {
+    padding-top: 60px;
+    letter-spacing: -1px;
+    font-size: calc(32rem / 16);
+  }
+  @include tablet {
+    letter-spacing: 0;
+  }
+}
+
+.i {
+  font-size: calc(45rem / 16);
+  font-family: "Poppins Bold", "Segoe UI";
+  font-weight: bold;
+  margin: 0;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .typing {
+    display: inline-flex;
+  }
+  @include phone {
+    padding-top: 60px;
+    letter-spacing: -1px;
+    font-size: calc(32rem / 16);
+  }
+  @include tablet {
+    letter-spacing: 0;
+  }
+}
+
+.typing {
+  font-size: calc(45rem / 16);
+  font-family: "Poppins Bold", "Segoe UI";
+  font-weight: bold;
+  margin: 0;
+  display: flex;
   @include phone {
     padding-top: 60px;
     letter-spacing: -1px;
