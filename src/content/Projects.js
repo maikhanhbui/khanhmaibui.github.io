@@ -3,7 +3,7 @@ const colors = {
     "purple": "#E2B4FF", 
     "green": "#c1eaa7", 
     "yellow": "#FFE595",
-    "blue": "#363538",
+    "blue": "#80a1b2",
 };
   
   export const projects = [

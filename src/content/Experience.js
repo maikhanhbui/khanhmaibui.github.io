@@ -3,10 +3,7 @@ const colors = {
     "purple": "#E2B4FF", 
     "green": "#c1eaa7", 
     "yellow": "#FFE595",
-    "blue": "#363538",
-    "one": "#132e35",
-    "two":"#2d4a53",
-    "three":"#69818d",
+    "blue": "#80a1b2",
   }
   
   // LOGOS
@@ -43,7 +40,7 @@ const colors = {
           </li>
         </ul>),
       logo: insightLogo,
-      bgColor: colors.three,
+      bgColor: colors.blue,
     },
     {
       role: "Data Analyst",
@@ -65,7 +62,7 @@ const colors = {
         </ul>
       ),
       logo: sfuLogo,
-      bgColor: colors.three,
+      bgColor: colors.blue,
     },
     {
       role: "Software Engineer Intern",
@@ -91,6 +88,6 @@ const colors = {
         </ul>
       ),
       logo: rakunaLogo,
-      bgColor: colors.three,
+      bgColor: colors.blue,
     },
   ];

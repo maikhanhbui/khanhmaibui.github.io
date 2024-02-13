@@ -59,34 +59,34 @@ export default function AboutMe() {
   return (
     <section id = "about_me">
       <div className={styles.button}>
-        <a href='#experience' className = {styles.button_container1}>
-          <h1> Experience </h1>
-        </a>
-      </div> 
+        <div>
+          <a href='#experience' className = {styles.button_container1}>
+            <h1> Experience </h1>
+          </a>
+        </div> 
 
-      <div className={styles.button}>
-        <a href='#projects' className = {styles.button_container2}>
-          <h1> Projects </h1>
+        <div>
+          <a href='#projects' className = {styles.button_container2}>
+            <h1> Projects </h1>
+          </a>
+        </div>
+
+        <div>
+        <a href='#contact_me' className = {styles.button_container3}>
+          <h1> Contact </h1>
         </a>
+        </div>
       </div>
 
-      <div className={styles.button}>
-      <a href='#contact_me' className = {styles.button_container3}>
-        <h1> Contact </h1>
-      </a>
-      </div>
-
-    <div className={styles.hello}>
     <br></br>
-      <h1 className={styles.hello}>Hello there, I'm Kaylee! 👋 </h1>
+      <h1 className={styles.hello}>Hello, I'm Kaylee! 👋 </h1>
       <span className={styles.i}>
-            <h2>I&nbsp;</h2>
+            <h2 className={styles.message}>I&nbsp;</h2>
             <TextLoop />
       </span>
     <br></br>
     <br></br>
     <br></br>
-    </div>
     </section>
   );
 }

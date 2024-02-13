@@ -11,7 +11,7 @@ import styles from "../styles/Projects.module.scss";
 export default function Projects() {
   return (
     <section id="projects" className={styles.projects}>
-      <Header title="Projects" color = "#69818d" />
+      <Header title="Projects" color = "#80a1b2" />
       <div className={styles.content}>
         <VerticalTimeline animate={true} layout="1-column">
           {projects.map((projects) => {

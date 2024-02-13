@@ -21,7 +21,7 @@
     border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #69818d;
+    background-color: #80a1b2;
     color: white;
     transition: 0.2s all;
     text-align: center;
@@ -48,7 +48,7 @@
     border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #69818d;
+    background-color: #80a1b2;
     color: white;
     transition: 0.2s all;
     text-align: center;
@@ -74,7 +74,7 @@
     border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #69818d;
+    background-color: #80a1b2;
     color: white;
     transition: 0.2s all;
     text-align: center;
@@ -97,31 +97,15 @@
 
 
 .button_container1:hover {
-  background-color: #f780c3;
+  background-color: #69818d;
 }
 
 .button_container2:hover {
-  background-color: #95e463;
+  background-color: #69818d;
 }
 
 .button_container3:hover {
-  background-color: #8bb0f8;
-}
-
-.hello {
-  padding-top: 100px;
-  font-size: calc(76rem / 16);
-  font-family: "Poppins Bold", "Segoe UI";
-  font-weight: bold;
-  margin: 0;
-  @include phone {
-    padding-top: 60px;
-    letter-spacing: -1px;
-    font-size: calc(32rem / 16);
-  }
-  @include tablet {
-    letter-spacing: 0;
-  }
+  background-color: #69818d;
 }
 
 .button {
@@ -139,17 +123,43 @@
   }
 }
 
+.hello {
+  padding-top: 300px;
+  font-size: calc(76rem / 16);
+  font-family: "Poppins Bold", "Segoe UI";
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  @include phone {
+    padding-top: 60px;
+    letter-spacing: -1px;
+    font-size: calc(32rem / 16);
+  }
+  @include tablet {
+    letter-spacing: 0;
+  }
+}
+
+.message {
+  margin: 0;
+  @include phone {
+    margin-left: 0.5rem;
+  }
+}
+
 .i {
   font-size: calc(45rem / 16);
   font-family: "Poppins Bold", "Segoe UI";
   font-weight: bold;
   margin: 0;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  .typing {
-    display: inline-flex;
-  }
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
   @include phone {
     padding-top: 60px;
     letter-spacing: -1px;

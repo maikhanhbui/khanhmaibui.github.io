@@ -11,7 +11,7 @@ import styles from "../styles/Experience.module.scss";
 export default function Experience() {
   return (
     <section id="experience" className={styles.experience}>
-      <Header title="Experience" color="#69818d" />
+      <Header title="Experience" color="#80a1b2" />
       <div className={styles.content}>
         <VerticalTimeline animate={true} layout="1-column">
           {experience.map((exp) => {
