@@ -11,7 +11,7 @@ const TextLoop = () => {
     " enjoy cooking.",
     " am happy you are here!",
   ];
-  //               pink       purple     green     yellow
+
   const colors = ["#FBA1D4", "#E2B4FF", "#ADE989", "#FFE595"];
   const [message, setMessage] = useState(messages[0]);
   const [color, setColor] = useState(colors[0]);
