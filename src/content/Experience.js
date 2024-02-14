@@ -27,16 +27,16 @@ const colors = {
       desc:(
          <ul>
           <li>
-            Developed and maintained the Microsoft SQL driver aimed at offering database connectivity for Django.
+            Developed and maintained the Microsoft SQL Server - Django driver by implementing and providing support for over 15 new driver features using Python, SQL queries, and Git.
           </li>
           <li>
-            Implemented new features and addressed identified issues using Python, SQL, and Azure DevOps.
+            Resolved over 80 test cases and issues that arise in the production of the driver, ensuring 3 on-time deployments of new releases.
           </li>
           <li>
-            In charge of deployment activities for new releases using Azure Pipelines, ensuring efficient and error-free deployment of driver updates, enhancements and features.
+            Performed deployment activities for 2 releases using Azure Pipelines, including participating in security reviews and maintaining documentation, ensuring an efficient and error-free release. 
           </li>
           <li>
-            Managed user inquires and concerns on the MSSQL driver repository through GitHub, including issue reproduction and resolution.
+            Actively managed over 100 user inquiries and concerns on the MS SQL driver repository through GitHub, including issue reproduction and resolution.
           </li>
         </ul>),
       logo: insightLogo,
@@ -54,10 +54,10 @@ const colors = {
       desc: (
         <ul>
           <li>
-            Generated automated data visualization scripts for various visualizing tools such as heatmaps, bar plots and volcano plots from supplied datasets, utilizing R packages including GGplot2 and plotly.
+            Eliminated manual processes by 5+ hours by developing automated data visualization scripts for various visualizing tools from CSV files in R, utilizing packages such as GGplot2 and plotly.
           </li>
           <li>
-            Conducted data processing and analyzing by employing statistical methods such as T-tests and ANOVA-tests to extract valuable insights from the data.
+            Reduced time spent on data processing and analyzing by 2 hours by building various statistical methods into automated R scripts to extract valuable insights from the data.
           </li>
         </ul>
       ),

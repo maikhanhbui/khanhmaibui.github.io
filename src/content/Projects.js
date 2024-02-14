@@ -13,11 +13,15 @@ const colors = {
       tools: ["Kotlin", "XML", "Android SDK", "Firebase"],
       desc: (
         <p>
-          Led a team of five students in the development of a user-centric Android app aiming to provide a platform that connects SFU students for formal study group sessions.
-          <br /> <br />
-          Integrated Optical Character Recognition (OCR) for extracting texts from images using Firebase’s ML Kit. 
-          <br /> <br />
-          Implemented a real-time chat function enabling live communication between app users using Firebase Realtime Database for storing and retrieving chat messages.
+          <li>
+            Led a team of 5 in the development of a user-centric Android app aiming to provide a platform that connects SFU students for formal study group sessions.
+          </li>
+          <li>
+            Integrated Optical Character Recognition (OCR) for extracting texts from images using Firebase’s ML Kit.
+          </li>
+          <li>
+            Implemented a real-time chat function enabling live communication between app users using Firebase Realtime Database for storing and retrieving chat messages.
+          </li>
         </p>
       ),
       github: "https://github.com/khanhmaibui/Studdi-Buddi-Finder",
@@ -40,9 +44,12 @@ const colors = {
       ],
       desc: (
         <p>
+          <li>
           Developed a 2D arcade-style game, incorporating automated algorithmic character movements and adhering to strong OO design principles.
-          <br /> <br />
+          </li>
+          <li>
           Designed an intuitive and user-friendly UI with setting menus and game displays that enhance player’s experience.
+          </li>
         </p>
       ),
       github: "https://github.com/khanhmaibui/thiefescape",
@@ -64,9 +71,12 @@ const colors = {
         ],
         desc: (
           <p>
+            <li>
             Collaborated with four students to developed a client-server-based trivia game, integrating remote connections and real-time interactions for multiple players, with seamless transmission and reception of requests.
-            <br /> <br />
+            </li>
+            <li>
             Designed and constructed shared objects to provide exclusive access to individual players on a rotational basis through the use of semaphore, ensuring data integrity and fairness.
+            </li>
           </p>
         ),
         github: "https://github.com/khanhmaibui/thiefescape",
