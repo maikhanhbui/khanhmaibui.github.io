@@ -20,7 +20,8 @@ const colors = {
       time: "Sept 2022 - Aug 2023",
       tools: [
         "Python",
-        "MSSQL",
+        "SQL",
+        "MS SQL Server",
         "Django",
         "Azure DevOps"
       ],
@@ -47,9 +48,11 @@ const colors = {
       company: "SUN Lab, Simon Fraser University",
       time: "Sept 2021 - Apr 2022",
       tools: [
-        "Python",
         "R",
-        "Data Visualization",
+        "R Studio",
+        "Python",
+        "Data Visualizing",
+        "Data Analyzing",
       ],
       desc: (
         <ul>
