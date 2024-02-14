@@ -32,7 +32,7 @@ export default function Contact() {
             <div className={styles.shell_container2}>
               <a
                 className={styles.email}
-                href="https://www.linkedin.com/in/khanh-mai-bui//"
+                href="https://www.linkedin.com/in/khanh-mai-bui/"
                 target="_blank"
                 rel="noreferrer"
               >
