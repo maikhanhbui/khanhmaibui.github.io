@@ -6,7 +6,7 @@ import "../styles/globals.scss";
 
 const TextLoop = () => {
   const messages = [
-    "am a software engineer.",
+    "am a software developer.",
     "love Mathematics.",
     "enjoy cooking.",
     "am happy you are here!",
