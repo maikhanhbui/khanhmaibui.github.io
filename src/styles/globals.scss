@@ -60,7 +60,7 @@ section {
 
 // Custom Scrollbar
 ::-webkit-scrollbar {
-  background: rgb(211, 209, 209);
+  background: rgb(218, 216, 216);
   width: 1rem;
   height: 6px;
 }
@@ -70,11 +70,11 @@ section {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #69818d;
+  background: #7399ac;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 254, 254, 0.3);
+  background: #69818d;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: rgba(255, 254, 254, 0.289);
+  background: #617a87;
 }
