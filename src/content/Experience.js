@@ -16,7 +16,7 @@ const colors = {
   export const experience = [
     {
       role: "Junior Software Developer Co-op",
-      company: "Magnitude Simba, Insightsoftware",
+      company: "Insightsoftware",
       time: "Sept 2022 - Aug 2023",
       tools: [
         "Python",
