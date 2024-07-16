@@ -98,7 +98,7 @@ const colors = {
     {
       role: "Software Engineer Intern",
       company: "Rakuna",
-      time: "May - June 2021",
+      time: "May 2021 - June 2021",
       tools: [
         "Ruby",
         "Ruby on Rails",
