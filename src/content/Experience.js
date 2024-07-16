@@ -71,30 +71,30 @@ const colors = {
       logo: insightLogo,
       bgColor: colors.blue,
     },
-    {
-      role: "Data Analyst",
-      company: "SUN Lab, Simon Fraser University",
-      time: "Sept 2021 - Apr 2022",
-      tools: [
-        "R",
-        "R Studio",
-        "Python",
-        "Data Visualizing",
-        "Data Analyzing",
-      ],
-      desc: (
-        <ul>
-          <li>
-            Eliminated manual processes by 5+ hours by developing automated data visualization scripts for various visualizing tools from CSV files in R, utilizing packages such as GGplot2 and plotly.
-          </li>
-          <li>
-            Reduced time spent on data processing and analyzing by 2 hours by building various statistical methods into automated R scripts to extract valuable insights from the data.
-          </li>
-        </ul>
-      ),
-      logo: sfuLogo,
-      bgColor: colors.blue,
-    },
+    // {
+    //   role: "Data Analyst",
+    //   company: "SUN Lab, Simon Fraser University",
+    //   time: "Sept 2021 - Apr 2022",
+    //   tools: [
+    //     "R",
+    //     "R Studio",
+    //     "Python",
+    //     "Data Visualizing",
+    //     "Data Analyzing",
+    //   ],
+    //   desc: (
+    //     <ul>
+    //       <li>
+    //         Eliminated manual processes by 5+ hours by developing automated data visualization scripts for various visualizing tools from CSV files in R, utilizing packages such as GGplot2 and plotly.
+    //       </li>
+    //       <li>
+    //         Reduced time spent on data processing and analyzing by 2 hours by building various statistical methods into automated R scripts to extract valuable insights from the data.
+    //       </li>
+    //     </ul>
+    //   ),
+    //   logo: sfuLogo,
+    //   bgColor: colors.blue,
+    // },
     {
       role: "Software Engineer Intern",
       company: "Rakuna",
