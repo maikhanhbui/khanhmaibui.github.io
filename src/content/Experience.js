@@ -59,7 +59,7 @@ const colors = {
             Developed and maintained the Microsoft SQL Server - Django driver by implementing and providing support for over 15 new driver features using Python, SQL queries, and Git.
           </li>
           <li>
-            Resolved over 80 test cases and issues that arise in the production of the driver, ensuring 3 on-time deployments of new releases.
+            Resolved over 80 test cases and issues that arised in the production of the driver, ensuring 3 on-time deployments of new releases.
           </li>
           <li>
             Performed deployment activities for 2 releases using Azure Pipelines, including participating in security reviews and maintaining documentation, ensuring an efficient and error-free release. 
