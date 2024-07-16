@@ -7,6 +7,7 @@ const colors = {
   }
   
   // LOGOS
+  const ibmLogo = <img src="ibmLogo.png" alt = ""/>;
   const insightLogo = <img src="insightLogo.png" alt = ""/>;
   const sfuLogo = <img src="sfuLogo.png" alt = ""/>;
   const rakunaLogo = <img src="rakunaLogo.jpeg" alt = ""/>;
@@ -14,6 +15,33 @@ const colors = {
   // EXPERIENCE
   
   export const experience = [
+    {
+      role: "Software Developer Intern",
+      company: "IBM",
+      time: "May 2024 - Dec 2024",
+      tools: [
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "Flink",
+        "Kubernetes"
+      ],
+      desc:(
+         <ul>
+          <li>
+            Developing a regression testing tool incorporating Flink and LangChain frameworks to automate the testing of Kafka-based streaming applications, 
+            accelerating the productivity and delivery of high-performance data processing solutions by 30%.
+          </li>
+          <li>
+            Conducting system design to build highly scalable systems, ensuring reliability, security and effiency.
+          </li>
+          <li>
+            Performing project deployment on Red Hat Openshift using Docker and Travis CI, helping to efficiently scale applications as needed.
+          </li>
+        </ul>),
+      logo: ibmLogo,
+      bgColor: colors.blue,
+    },
     {
       role: "Junior Software Developer Co-op",
       company: "Insightsoftware",
