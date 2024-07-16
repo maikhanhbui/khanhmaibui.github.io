@@ -79,7 +79,7 @@ export default function AboutMe() {
       </div>
 
     <br></br>
-      <h1 className={styles.hello}>Hello, I'm Khanh! 👋 </h1>
+      <h1 className={styles.hello}>Hello, I'm Mai Khanh! 👋 </h1>
       <span className={styles.i}>
             <h2 className={styles.message}>I&nbsp;</h2>
             <TextLoop />
