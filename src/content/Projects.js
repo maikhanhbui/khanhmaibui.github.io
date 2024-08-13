@@ -24,10 +24,10 @@ const colors = {
           </li>
         </p>
       ),
-      github: "https://github.com/khanhmaibui/Studdi-Buddi-Finder",
+      github: "https://github.com/maikhanhbui/Studdi-Buddi-Finder",
       color: colors.blue,
       logo: <img src="androidLogo.png" alt=""/>,
-      githubLogo: <a href="https://github.com/khanhmaibui/Studdi-Buddi-Finder" target="_blank" rel="noopener noreferrer"> <img
+      githubLogo: <a href="https://github.com/maikhanhbui/Studdi-Buddi-Finder" target="_blank" rel="noopener noreferrer"> <img
       src="githubLogo.png"
       alt="go to Github repo"
       width={35}
@@ -52,10 +52,10 @@ const colors = {
           </li>
         </p>
       ),
-      github: "https://github.com/khanhmaibui/thiefescape",
+      github: "https://github.com/maikhanhbui/thiefescape",
       color: colors.blue,
       logo: <img src="javaLogo.png" alt=""/>,
-      githubLogo: <a href="https://github.com/khanhmaibui/thiefescape" target="_blank" rel="noopener noreferrer"> <img
+      githubLogo: <a href="https://github.com/maikhanhbui/thiefescape" target="_blank" rel="noopener noreferrer"> <img
       src="githubLogo.png"
       alt="go to Github repo"
       width={35}
@@ -79,7 +79,7 @@ const colors = {
             </li>
           </p>
         ),
-        github: "https://github.com/khanhmaibui/thiefescape",
+        github: "https://github.com/klocquiao/Trivia-Game",
         color: colors.blue,
         logo: <img src="pythonLogo.png" alt=""/>,
         githubLogo: <a href="https://github.com/klocquiao/Trivia-Game" target="_blank" rel="noopener noreferrer"> <img
